@@ -5,8 +5,7 @@ from ..models import User
 from .forms import LoginForm,RegistrationForm
 from ..import db
 
-db.create_all()
-db.session.commit()
+
 
 @auth.route('/register',methods = ["GET","POST"])
 def register():
