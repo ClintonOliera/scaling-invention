@@ -1,4 +1,4 @@
-import requests
+
 from config import Config
 from . models import Quotes
 
